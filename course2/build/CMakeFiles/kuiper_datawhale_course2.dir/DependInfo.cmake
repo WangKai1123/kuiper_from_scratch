@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wk/kuiper_from_scratch/course1/course1_main.cpp" "CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o" "gcc" "CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o.d"
-  "/home/wk/kuiper_from_scratch/course1/test/axby.cpp" "CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o" "gcc" "CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o.d"
-  "/home/wk/kuiper_from_scratch/course1/test/test1.cpp" "CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o" "gcc" "CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o.d"
+  "/home/wk/kuiper_from_scratch/course2/main.cpp" "CMakeFiles/kuiper_datawhale_course2.dir/main.cpp.o" "gcc" "CMakeFiles/kuiper_datawhale_course2.dir/main.cpp.o.d"
+  "/home/wk/kuiper_from_scratch/course2/source/tensor.cpp" "CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.o" "gcc" "CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

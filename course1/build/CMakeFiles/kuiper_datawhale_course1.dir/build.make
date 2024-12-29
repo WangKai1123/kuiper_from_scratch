@@ -83,10 +83,24 @@ CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wk/kuiper_from_scratch/course1/course1_main.cpp -o CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.s
 
+CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o: CMakeFiles/kuiper_datawhale_course1.dir/flags.make
+CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o: /home/wk/kuiper_from_scratch/course1/test/axby.cpp
+CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o: CMakeFiles/kuiper_datawhale_course1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wk/kuiper_from_scratch/course1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o -MF CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o.d -o CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o -c /home/wk/kuiper_from_scratch/course1/test/axby.cpp
+
+CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wk/kuiper_from_scratch/course1/test/axby.cpp > CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.i
+
+CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wk/kuiper_from_scratch/course1/test/axby.cpp -o CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.s
+
 CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o: CMakeFiles/kuiper_datawhale_course1.dir/flags.make
 CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o: /home/wk/kuiper_from_scratch/course1/test/test1.cpp
 CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o: CMakeFiles/kuiper_datawhale_course1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wk/kuiper_from_scratch/course1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wk/kuiper_from_scratch/course1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o -MF CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o.d -o CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o -c /home/wk/kuiper_from_scratch/course1/test/test1.cpp
 
 CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.i: cmake_force
@@ -100,12 +114,14 @@ CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.s: cmake_force
 # Object files for target kuiper_datawhale_course1
 kuiper_datawhale_course1_OBJECTS = \
 "CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o" \
+"CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o" \
 "CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o"
 
 # External object files for target kuiper_datawhale_course1
 kuiper_datawhale_course1_EXTERNAL_OBJECTS =
 
 kuiper_datawhale_course1: CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o
+kuiper_datawhale_course1: CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o
 kuiper_datawhale_course1: CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o
 kuiper_datawhale_course1: CMakeFiles/kuiper_datawhale_course1.dir/build.make
 kuiper_datawhale_course1: /usr/local/lib/libglog.so.0.8.0
@@ -116,7 +132,7 @@ kuiper_datawhale_course1: /usr/lib/x86_64-linux-gnu/libopenblas.so
 kuiper_datawhale_course1: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so
 kuiper_datawhale_course1: /usr/lib/x86_64-linux-gnu/libpthread.so
 kuiper_datawhale_course1: CMakeFiles/kuiper_datawhale_course1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wk/kuiper_from_scratch/course1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kuiper_datawhale_course1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wk/kuiper_from_scratch/course1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable kuiper_datawhale_course1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kuiper_datawhale_course1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

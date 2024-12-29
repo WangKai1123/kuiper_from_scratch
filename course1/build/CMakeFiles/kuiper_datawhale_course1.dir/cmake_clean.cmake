@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o"
   "CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o.d"
+  "CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o"
+  "CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o.d"
   "CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o"
   "CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o.d"
   "kuiper_datawhale_course1"

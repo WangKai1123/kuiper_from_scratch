@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wk/kuiper_from_scratch/course1
+CMAKE_SOURCE_DIR = /home/wk/kuiper_from_scratch/course2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wk/kuiper_from_scratch/course1/build
+CMAKE_BINARY_DIR = /home/wk/kuiper_from_scratch/course2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course1/build/CMakeFiles /home/wk/kuiper_from_scratch/course1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course2/build/CMakeFiles /home/wk/kuiper_from_scratch/course2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,89 +127,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kuiper_datawhale_course1
+# Target rules for targets named kuiper_datawhale_course2
 
 # Build rule for target.
-kuiper_datawhale_course1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kuiper_datawhale_course1
-.PHONY : kuiper_datawhale_course1
+kuiper_datawhale_course2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kuiper_datawhale_course2
+.PHONY : kuiper_datawhale_course2
 
 # fast build rule for target.
-kuiper_datawhale_course1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/build
-.PHONY : kuiper_datawhale_course1/fast
+kuiper_datawhale_course2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/build
+.PHONY : kuiper_datawhale_course2/fast
 
-course1_main.o: course1_main.cpp.o
-.PHONY : course1_main.o
-
-# target to build an object file
-course1_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.o
-.PHONY : course1_main.cpp.o
-
-course1_main.i: course1_main.cpp.i
-.PHONY : course1_main.i
-
-# target to preprocess a source file
-course1_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.i
-.PHONY : course1_main.cpp.i
-
-course1_main.s: course1_main.cpp.s
-.PHONY : course1_main.s
-
-# target to generate assembly for a file
-course1_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/course1_main.cpp.s
-.PHONY : course1_main.cpp.s
-
-test/axby.o: test/axby.cpp.o
-.PHONY : test/axby.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-test/axby.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.o
-.PHONY : test/axby.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-test/axby.i: test/axby.cpp.i
-.PHONY : test/axby.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test/axby.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.i
-.PHONY : test/axby.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test/axby.s: test/axby.cpp.s
-.PHONY : test/axby.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test/axby.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/test/axby.cpp.s
-.PHONY : test/axby.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-test/test1.o: test/test1.cpp.o
-.PHONY : test/test1.o
+source/tensor.o: source/tensor.cpp.o
+.PHONY : source/tensor.o
 
 # target to build an object file
-test/test1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.o
-.PHONY : test/test1.cpp.o
+source/tensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.o
+.PHONY : source/tensor.cpp.o
 
-test/test1.i: test/test1.cpp.i
-.PHONY : test/test1.i
+source/tensor.i: source/tensor.cpp.i
+.PHONY : source/tensor.i
 
 # target to preprocess a source file
-test/test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.i
-.PHONY : test/test1.cpp.i
+source/tensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.i
+.PHONY : source/tensor.cpp.i
 
-test/test1.s: test/test1.cpp.s
-.PHONY : test/test1.s
+source/tensor.s: source/tensor.cpp.s
+.PHONY : source/tensor.s
 
 # target to generate assembly for a file
-test/test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course1.dir/build.make CMakeFiles/kuiper_datawhale_course1.dir/test/test1.cpp.s
-.PHONY : test/test1.cpp.s
+source/tensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.s
+.PHONY : source/tensor.cpp.s
 
 # Help Target
 help:
@@ -220,16 +196,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... kuiper_datawhale_course1"
-	@echo "... course1_main.o"
-	@echo "... course1_main.i"
-	@echo "... course1_main.s"
-	@echo "... test/axby.o"
-	@echo "... test/axby.i"
-	@echo "... test/axby.s"
-	@echo "... test/test1.o"
-	@echo "... test/test1.i"
-	@echo "... test/test1.s"
+	@echo "... kuiper_datawhale_course2"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... source/tensor.o"
+	@echo "... source/tensor.i"
+	@echo "... source/tensor.s"
 .PHONY : help
 
 
