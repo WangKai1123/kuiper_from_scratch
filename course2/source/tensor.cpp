@@ -167,9 +167,70 @@ namespace kuiper_infer{
         uint32_t channels = this->channels();
         // 创建一个新的tensor表示填充之后的数据
         Tensor<float> padded(pad_channels, pad_rows, pad_cols);
-
+        padded.Fill(padding_value);
+        // 将原始数据复制到填充后的tensor中
+        padded.Show();
+        //请填充代码
+        for (uint32_t channel = 0; channel< pad_channels;channel++){
+            for(uint32_t row = pad)
+        }
+        
 
     }
 
+    void Tensor<float>::Fill(float value){
+        CHECK(!this->data_.empty());
+        this->data_.fill(value);
+    }
+
+    void Tensor<float>::Fill(const std::vector<float>& values, bool row_major) {
+        CHECK(!this->data_.empty());
+        const uint32_t total_elems = this->data_.size();
+        CHECK_EQ(values.size(), total_elems);
+        if(row_major){
+            const uint32_t rows = this->rows();
+            const uint32_t cols = this->cols();
+            const uint32_t planes = rows*cols;
+            const uint32_t channels = this->data_.n_slices;
+            for(uint32_t i=0;i<channels;i++){
+                auto& channel_data = this->data_.slice(i);
+                const arma::fmat& channel_data_t = arma::fmat(values.data()+i*planes,this->cols(),this->rows());
+
+                channel_data = channel_data_t.t();
+            }
+        }else{
+            std::copy(values.begin(), values.end(), this->data_.memptr());
+        }
+    }
+
+    void Tensor<float>::show(){
+        for(uint32_t i=0;i<this->channels();++i){
+            LOG(INFO) <<"channel:"<<i;
+            LOG(INFO) <<"\n"<<this->data_.slice(i);
+        }
+    }
+
+    void Tensor<float>::Flatten(bool row_major){
+        CHECK(!this->data_.empty());
+
+    }
+
+    void Tensor<float>::Rand(){
+        CHEck(!this->data_.empty());
+        this->data_.randu();
+    }
+
+    void Tensor<float>::Ones(){
+        CHECK(!this->data_.empty());
+        this->data_.ones();
+    }
+
+    void Tensor<float>::Transform(const std::function<float(float)>& filterll){
+
+
+
 
 }
+
+
+
