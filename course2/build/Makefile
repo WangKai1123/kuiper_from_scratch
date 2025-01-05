@@ -187,6 +187,30 @@ source/tensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.s
 .PHONY : source/tensor.cpp.s
 
+test/test_transform.o: test/test_transform.cpp.o
+.PHONY : test/test_transform.o
+
+# target to build an object file
+test/test_transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/test/test_transform.cpp.o
+.PHONY : test/test_transform.cpp.o
+
+test/test_transform.i: test/test_transform.cpp.i
+.PHONY : test/test_transform.i
+
+# target to preprocess a source file
+test/test_transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/test/test_transform.cpp.i
+.PHONY : test/test_transform.cpp.i
+
+test/test_transform.s: test/test_transform.cpp.s
+.PHONY : test/test_transform.s
+
+# target to generate assembly for a file
+test/test_transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/test/test_transform.cpp.s
+.PHONY : test/test_transform.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -203,6 +227,9 @@ help:
 	@echo "... source/tensor.o"
 	@echo "... source/tensor.i"
 	@echo "... source/tensor.s"
+	@echo "... test/test_transform.o"
+	@echo "... test/test_transform.i"
+	@echo "... test/test_transform.s"
 .PHONY : help
 
 

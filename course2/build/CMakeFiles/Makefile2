@@ -81,12 +81,12 @@ clean: CMakeFiles/kuiper_datawhale_course2.dir/clean
 CMakeFiles/kuiper_datawhale_course2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kuiper_datawhale_course2.dir/build.make CMakeFiles/kuiper_datawhale_course2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wk/kuiper_from_scratch/course2/build/CMakeFiles --progress-num=1,2,3 "Built target kuiper_datawhale_course2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wk/kuiper_from_scratch/course2/build/CMakeFiles --progress-num=1,2,3,4 "Built target kuiper_datawhale_course2"
 .PHONY : CMakeFiles/kuiper_datawhale_course2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kuiper_datawhale_course2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course2/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course2/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kuiper_datawhale_course2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wk/kuiper_from_scratch/course2/build/CMakeFiles 0
 .PHONY : CMakeFiles/kuiper_datawhale_course2.dir/rule

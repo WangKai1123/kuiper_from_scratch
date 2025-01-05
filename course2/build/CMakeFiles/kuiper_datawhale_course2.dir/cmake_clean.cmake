@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kuiper_datawhale_course2.dir/main.cpp.o.d"
   "CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.o"
   "CMakeFiles/kuiper_datawhale_course2.dir/source/tensor.cpp.o.d"
+  "CMakeFiles/kuiper_datawhale_course2.dir/test/test_transform.cpp.o"
+  "CMakeFiles/kuiper_datawhale_course2.dir/test/test_transform.cpp.o.d"
   "kuiper_datawhale_course2"
   "kuiper_datawhale_course2.pdb"
 )
