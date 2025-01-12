@@ -1,0 +1,4 @@
+/home/wk/kuiper_from_scratch/course3/build/CMakeFiles/kuiper_datawhale_course3.dir
+/home/wk/kuiper_from_scratch/course3/build/CMakeFiles/test.dir
+/home/wk/kuiper_from_scratch/course3/build/CMakeFiles/edit_cache.dir
+/home/wk/kuiper_from_scratch/course3/build/CMakeFiles/rebuild_cache.dir

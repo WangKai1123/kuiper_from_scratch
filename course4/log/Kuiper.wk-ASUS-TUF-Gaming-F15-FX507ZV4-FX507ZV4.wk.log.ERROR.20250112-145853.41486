@@ -1,0 +1,5 @@
+Log file created at: 2025/01/12 14:58:53
+Running on machine: wk-ASUS-TUF-Gaming-F15-FX507ZV4-FX507ZV4
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20250112 14:58:53.715866 140652850264192 runtime_ir.cpp:36] Can not find the param path or bin path: home/wk/kuiper_from_scratch/course3/model_file/test_linear.pnnx.param home/wk/kuiper_from_scratch/course3/model_file/test_linear.pnnx.bin

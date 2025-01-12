@@ -1,0 +1,9 @@
+Log file created at: 2025/01/12 14:18:36
+Running on machine: wk-ASUS-TUF-Gaming-F15-FX507ZV4-FX507ZV4
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20250112 14:18:36.323376 140639482480768 main.cpp:15] Start test...
+I20250112 14:18:36.323677 140639482480768 test.cpp:36] pnnx_input_0
+I20250112 14:18:36.323686 140639482480768 test.cpp:36] linear
+I20250112 14:18:36.323691 140639482480768 test.cpp:36] F.sigmoid_0
+I20250112 14:18:36.323694 140639482480768 test.cpp:36] pnnx_output_0
